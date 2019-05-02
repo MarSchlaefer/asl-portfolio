@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-import Header from './components/header'
 import Footer from './components/footer'
 import Content from './components/content'
+import SideBar from './components/sideBar'
 
 class App extends Component {
 
@@ -16,9 +16,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header handleClick={this.handleClick}/>
-        <Content page={this.state.page}/>
-        <Footer />
+        <div className="App-main">
+          <SideBar handleClick={this.handleClick}/>
+          <Content page={this.state.page}/>
+        </div>
+          <Footer />
       </div>
     );
   }
