@@ -35,7 +35,7 @@
 }
 
 .content {
-  
+  padding: 1em;
 }
 
 .footer {
@@ -43,4 +43,51 @@
   flex-direction: row;
   justify-content: center;
   margin: 1em;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about h5 {
+  font-size: 2em;
+}
+
+.about p {
+  font-size: 2em;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: center;
+}
+
+.col-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.col-1 {
+  height: 100%;
+  width: 30vw;
+  margin: 1em;
+  background-color: rgba(185,121,145, 0.2);
+}
+
+.col-2 {
+  height: 100%;
+  width: 30vw;
+  margin: 1em;
+  background-color: rgba(185,121,145, 0.2);
+}
+
+.col-3 {
+  height: 100%;
+  width: 30vw;
+  margin: 1em;
+  background-color: rgba(185,121,145, 0.2);
 }
