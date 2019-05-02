@@ -16,11 +16,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="App-main">
-          <SideBar handleClick={this.handleClick}/>
-          <Content page={this.state.page}/>
-        </div>
-          <Footer />
+        <SideBar handleClick={this.handleClick}/>
+        <Content page={this.state.page}/>
       </div>
     );
   }
