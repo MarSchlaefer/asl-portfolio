@@ -8,9 +8,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <SideBar handleClick={this.handleClick}/>
+        <SideBar />
         <div className="spacing"></div>
-        <Content page={this.state.page}/>
+        <Content />
       </div>
     );
   }
