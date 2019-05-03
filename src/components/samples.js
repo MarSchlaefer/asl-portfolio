@@ -4,8 +4,10 @@ import React, { Component } from 'react';
 class Samples extends Component {
   render() {
     return (
-      <div className="samples">
-        <h1>SAMPLES</h1>
+      <div className="samples" id="samples">
+        <div className="page-title">
+          <h1>Work Samples</h1>
+        </div>
       </div>
     );
   }

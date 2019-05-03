@@ -4,8 +4,10 @@ import React, { Component } from 'react';
 class Experience extends Component {
   render() {
     return (
-      <div className="experience">
-        <h1>EXPERIENCE</h1>
+      <div className="experience" id="experience">
+        <div className="page-title">
+          <h1>EXPERIENCE</h1>
+        </div>
         <div className="col-container">
           <div className="col-1">
             <h2>Education</h2>
@@ -36,9 +38,6 @@ class Experience extends Component {
             <h3>Public Speaking: &nbsp;Recognized at State of Iowa – All State Speech Competition, 1995.</h3>
           </div>
         </div>
-        <br />
-        <h2>Full Resume</h2>
-        <br />
         <span><h2>For full resume click: </h2></span> <span><a href="https://drive.google.com/file/d/0B-gD9JdC00ZLSThaakhIVXdnb1U/view?usp=sharing">BRONWYN'S RESUME’</a></span>
       </div>
     );
