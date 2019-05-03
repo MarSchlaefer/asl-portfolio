@@ -1,28 +1,41 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+
 .App {
   display: flex;
   flex-direction: row;
   font-family: 'Roboto', sans-serif;
 }
 
+.spacing {
+  height: 110vh;
+  width: 15vw;
+}
+
 .side-bar {
-  height: 100vh;
-  width: 20vw;
+  height: 110vh;
+  width: 15vw;
   background: #320f45;
-  /* position: fixed; */
+  position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
   overflow: hidden;
-  float: left;
   box-sizing: border-box;
+  padding-left: 1em;
+  padding-top: 2em;
+  /* position: -webkit-sticky;
+  position: sticky;
+  top: 0; */
+}
+
+.side-bar img {
+  height: 20vh;
 }
 
 .menu {
   display: flex;
   flex-direction: column;
-  color: white;
   font-family: 'Roboto', sans-serif;
   font-size: 1.25em;
 }
@@ -31,35 +44,35 @@
   height: 2em;
   padding: .5em;
   line-height: 2em;
+  border-radius: 5px;
 }
 
 .nav-bar div:hover {
   background: #581d79;
 }
 
+.nav-bar a {
+  text-decoration: none;
+  color: white;
+}
+
 .content {
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  width: 80vw;
+  width: 85vw;
   padding: 2em;
   overflow: scroll;
   float: right;
   box-sizing: border-box;
   justify-content: center;
-}
-
-.footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: 1em;
+  background: snow;
 }
 
 .about {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 2em;
 }
 
 .about h5 {
@@ -75,6 +88,7 @@
   flex-direction: column;
   text-align: left;
   align-items: center;
+  margin: 2em;
 }
 
 .col-container {
@@ -83,22 +97,49 @@
 }
 
 .col-1 {
-  height: 100%;
-  width: 30vw;
+  /* height: 100%; */
+  width: 30%;
   margin: 1em;
-  background-color: rgba(185,121,145, 0.2);
+  padding: 1em;
+  background-color: rgb(50,15,69, 0.5);
+  border-radius: 5px;
 }
 
 .col-2 {
-  height: 100%;
+  /* height: 100%; */
   width: 30vw;
   margin: 1em;
-  background-color: rgba(185,121,145, 0.2);
+  padding: 1em;
+  background-color: rgb(50,15,69, 0.5);
+  border-radius: 5px;
 }
 
 .col-3 {
-  height: 100%;
+  /* height: 100%; */
   width: 30vw;
   margin: 1em;
-  background-color: rgba(185,121,145, 0.2);
+  padding: 1em;
+  background-color: rgb(50,15,69, 0.5);
+  border-radius: 5px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2em;
+}
+
+.samples {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2em;
+}
+
+.availability {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2em;
 }
