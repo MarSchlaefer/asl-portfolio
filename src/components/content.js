@@ -4,34 +4,24 @@ import Experience from './experience'
 import Samples from './samples'
 import Availability from './availability'
 import Contact from './contact'
+import ReallySmoothScroll from 'really-smooth-scroll'
 
+ReallySmoothScroll.shim();
 
 class Content extends Component {
   render() {
     return (
       <div className="content">
-        {this.renderContent()}
+        <About />
+        <Experience />
+        <Samples />
+        <Availability />
+        <Contact />
       </div>
     );
   }
 
-  renderContent = () => {
-    if (this.props.page === "about") {
-      return <About />
-    }
-    if (this.props.page === "experience") {
-      return <Experience />
-    }
-    if (this.props.page === "samples") {
-      return <Samples />
-    }
-    if (this.props.page === "availability") {
-      return <Availability />
-    }
-    if (this.props.page === "contact") {
-      return <Contact />
-    }
-  }
+ 
 }
 
 export default Content;
