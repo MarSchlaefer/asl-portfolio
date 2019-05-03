@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 class Menu extends Component {
 
@@ -9,11 +10,21 @@ class Menu extends Component {
           <img src="" alt=""></img>
         </div>
         <div className='nav-bar'>
-          <div onClick={() => this.props.handleClick("about")}>About</div>
-          <div onClick={() => this.props.handleClick("experience")}>Experience</div>
-          <div onClick={() => this.props.handleClick("samples")}>Work Samples</div>
-          <div onClick={() => this.props.handleClick("availability")}>Availability</div>
-          <div onClick={() => this.props.handleClick("contact")}>Contact Me</div>
+          <AnchorLink href='#about'>
+            <div>About</div>
+          </AnchorLink>
+          <AnchorLink href='#experience'>
+            <div>Experience</div>
+          </AnchorLink>
+          <AnchorLink href='#samples'>
+            <div>Work Samples</div>
+          </AnchorLink>
+          <AnchorLink href='#availability'>
+            <div>Availability</div>
+          </AnchorLink>
+          <AnchorLink href='#contact'>
+            <div>Contact Me</div>
+          </AnchorLink>
         </div>
       </div>
     );
