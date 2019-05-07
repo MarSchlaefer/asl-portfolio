@@ -71,38 +71,3 @@ class Contact extends Component {
 
 export default Contact;
 
-        // <Form className="contact-form" onSubmit={ (e) => this.formSubmit(e)}>
-        //   <Form.Group widths='equal'>
-        //     <Form.Input 
-        //     fluid 
-        //     label='Your name' 
-        //     placeholder='Your name' 
-        //     class="message-name" 
-        //     htmlFor="message-name" 
-        //     value={this.state.name}
-        //     onChange={e => this.setState({ name: e.target.value})}
-        //     />
-        //   </Form.Group>
-        //   <Form.Group widths='equal'>
-        //     <Form.Input fluid label='Email' placeholder='Email' />  
-        //   </Form.Group>
-        //   <Form.Group inline>
-        //     <label>Preferred form of contact</label>
-        //     <Form.Radio
-        //       label='Phone'
-        //       value='phone'
-        //       checked={value === 'phone'}
-        //       onChange={this.handleChange}
-        //     />
-        //     <Form.Radio
-        //       label='Email'
-        //       value='email'
-        //       checked={value === 'email'}
-        //       onChange={this.handleChange}
-        //     />
-        //   </Form.Group>
-        //   <Form.Input fluid label='Subject' placeholder='Email subject' />
-        //   <Form.TextArea label='Content' placeholder='Email content'/>
-        //   <Form.Checkbox label='I agree to the Terms and Conditions' />
-        //   <Form.Button>Submit</Form.Button>
-        // </Form>
