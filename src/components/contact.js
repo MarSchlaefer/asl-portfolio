@@ -61,7 +61,16 @@ class Contact extends Component {
         console.log('Message not sent')
       })
     }
-    
+
+    resetForm = () => {
+      this.setState({
+          name: '',
+          message: '',
+          email: '',
+          buttonText: 'Message Sent'
+      })
+    }
+
   } //end of class
 
 export default Contact;
