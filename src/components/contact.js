@@ -17,6 +17,8 @@ class Contact extends Component {
       <div className="contact" id="contact">
           <div className="page-title">
             <h1>Contact Me!</h1>
+          </div>
+          <div className="form-container">
             <form className="contact-form" onSubmit={ (e) => this.formSubmit(e)}>
               <label className="message-name" htmlFor="message-name">Your Name</label>
               <input onChange={e => this.setState({ name: e.target.value})} name="name" className="message-name" type="text" placeholder="Your Name" value={this.state.name}/>
