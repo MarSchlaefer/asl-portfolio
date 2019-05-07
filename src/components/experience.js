@@ -9,14 +9,14 @@ class Experience extends Component {
           <h1>Experience</h1>
         </div>
         <div className="col-container">
-          <div className="col-1">
+          <div className="col-1 col">
             <h2>Education</h2>
             <br />
             <h3>Interpreter Preparation, Associates Degree, Community College of Baltimore County, December 2016.</h3>
             <h3>Deaf Studies, Bachelor of Science, Towson University, Towson, May 2010.</h3>
             <br />
           </div>
-          <div className="col-2">
+          <div className="col-2 col">
             <h2>Course Work</h2>
             <br />
             <h3>ASL 1-5</h3>
@@ -30,7 +30,7 @@ class Experience extends Component {
             <h3>Deaf Literature</h3>
             <h3>Deaf History</h3>
           </div>
-          <div className="col-3">
+          <div className="col-3 col">
             <h2>Skills</h2>
             <br />
             <h3>Time Management:&nbsp; Organized a team to assemble over 1,400 conference materials, 2013.</h3>
