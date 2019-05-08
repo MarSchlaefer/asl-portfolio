@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import About from './about'
 import Experience from './experience'
 import Samples from './samples'
-import Availability from './availability'
 import Contact from './contact'
 import ReallySmoothScroll from 'really-smooth-scroll'
 
@@ -15,7 +14,6 @@ class Content extends Component {
         <About />
         <Experience />
         <Samples />
-        <Availability />
         <Contact />
       </div>
     );

@@ -19,9 +19,6 @@ class Menu extends Component {
           <AnchorLink href='#samples'>
             <div>Work Samples</div>
           </AnchorLink>
-          <AnchorLink href='#availability'>
-            <div>Availability</div>
-          </AnchorLink>
           <AnchorLink href='#contact'>
             <div>Contact Me</div>
           </AnchorLink>
