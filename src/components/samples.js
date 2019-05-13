@@ -5,7 +5,7 @@ class Samples extends Component {
   render() {
     return (
       <div className="samples" id="samples">
-        <div className="page-title">
+        <div className="page-title" id="test">
           <h1>Work Samples</h1>
         </div>
       </div>

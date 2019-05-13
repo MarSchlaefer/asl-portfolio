@@ -4,8 +4,8 @@ import React, { Component } from 'react';
 class Experience extends Component {
   render() {
     return (
-      <div className="experience" id="experience">
-        <div className="page-title">
+      <div className="experience">
+        <div className="page-title" id="test">
           <h1>Experience</h1>
         </div>
         <div className="col-container">

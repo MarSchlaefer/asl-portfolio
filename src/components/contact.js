@@ -14,8 +14,8 @@ class Contact extends Component {
 
   render() {
     return (
-      <div className="contact" id="contact">
-          <div className="page-title">
+      <div className="contact">
+          <div className="page-title" id="test">
             <h1>Contact Me!</h1>
           </div>
           <div className="form-container">
@@ -39,6 +39,7 @@ class Contact extends Component {
     }
     
     formSubmit = (e) => {
+      console.log('in message submit')
       e.preventDefault()
     
       this.setState({
@@ -51,7 +52,7 @@ class Contact extends Component {
           message: this.state.message
       }
       
-      axios.post('https://localhost:4444/api/v1', data)
+      axios.post('http://localhost:4444/api/v1', data)
       .then( res => {
           this.setState({ sent: true }, this.resetForm())
       })
