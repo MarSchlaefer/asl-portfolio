@@ -6,9 +6,6 @@ class Menu extends Component {
   render() {
     return (
       <div className="menu">
-        <div className="logo">
-          <img src="" alt=""></img>
-        </div>
         <div className='nav-bar'>
           <AnchorLink href='#about'>
             <div>About</div>

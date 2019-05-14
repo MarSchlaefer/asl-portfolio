@@ -5,7 +5,7 @@ import ReactPlayer from 'react-player'
 class About extends Component {
   render() {
     return (
-      <div className="about">
+      <div className="about" id="about">
         <div className="page-title" id="test">
           <h1>About</h1>
         </div>
