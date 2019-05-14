@@ -30,15 +30,15 @@
   top: 0; */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  animation: slidein 3s
+  /* animation: slidein 3s */
 }
 
 .side-bar img {
   height: 20vh;
-  animation: fadein 3s;
-  -moz-animation: fadein 3s; 
-  -webkit-animation: fadein 3s;
-  -o-animation: fadein 3s;
+  animation: fadein 1s;
+  -moz-animation: fadein 1s; 
+  -webkit-animation: fadein 1s;
+  -o-animation: fadein 1s;
 }
 
 .menu {
@@ -46,10 +46,10 @@
   flex-direction: column;
   font-family: 'Roboto', sans-serif;
   font-size: 1.25em;
-  animation: fadein 3s;
-  -moz-animation: fadein 3s; 
-  -webkit-animation: fadein 3s;
-  -o-animation: fadein 3s;
+  animation: fadein 1s;
+  -moz-animation: fadein 1s; 
+  -webkit-animation: fadein 1s;
+  -o-animation: fadein 1s;
 }
 
 .nav-bar div {
@@ -226,37 +226,33 @@ button[type=submit]:hover {
 }
 
 #test h1 {
-  animation: fadein 5s;
-  -moz-animation: fadein 5s; 
-  -webkit-animation: fadein 5s;
-  -o-animation: fadein 5s;
+  animation: fadein 1.5s;
+  -moz-animation: fadein 1.5s; 
+  -webkit-animation: fadein 1.5s;
+  -o-animation: fadein 1.5s;
 }
 
 @keyframes fadein {
   0% { opacity:0; }
-  50% { opacity:0; }
   100% { opacity:1; }
 }
 
 @-moz-keyframes fadein { /* Firefox */
   0% { opacity:0; }
-  50% { opacity:0; }
   100% { opacity:1; }
 }
 
 @-webkit-keyframes fadein { /* Safari and Chrome */
   0% { opacity:0; }
-  50% { opacity:0; }
   100% { opacity:1; }
 }
 
 @-o-keyframes fadein { /* Opera */
   0% { opacity:0; }
-  50% { opacity:0; }
   100% { opacity:1; }
 }
 
-@keyframes slidein {
+/* @keyframes slidein {
   from {
     margin-left: 0%;
     width: 300%;
@@ -265,4 +261,4 @@ button[type=submit]:hover {
     margin-left: 0%;
     width: 15%;
   }
-}
+} */
